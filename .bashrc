@@ -187,8 +187,8 @@ alias dnscrypt='sudo /usr/local/sbin/dnscrypt-proxy --daemonize -R cloudns-syd -
 
 #apt
 alias apt-install='sudo apt-get install'
-alias apt-uninstall='sudo apt-get purge'
-alias apt-update='sudo apt-get install'
+alias apt-uninstall='sudo apt-get purge --auto-remove'
+alias apt-update='sudo apt-get update'
 alias apt-search='apt-cache search'
 
 alias dstat='dstat --top-cpu -cmdsnt'
